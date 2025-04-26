@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/images/brand-2.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Templates | Template Forge</title>
+</head>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+      window.addEventListener('load', () => {
+    AOS.init();
+  });
+
+</script>
+<script src="/script.js"></script>
+<body onload="allCate()">
+    <nav>
+        <img src="/images/ico-1.png" class="ico-1" onclick="navigatorOn()">
+
+        <a href="index.html"><img src="/images/brand.png" class="brand"></a>
+        
+        <a href="contact.html"><button>Contact Us</button></a>
+
+        <a href="about.html"><li>About</li></a>
+        <a href="templates.html"><li>Templates</li></a>
+        <a href="index.html"><li>Home</li></a>
+
+    </nav>
+
+    <div class="nav" data-aos="fade-right" id="nav">
+        <img src="/images/ico-1.png" class="ico-1" onclick="navigatorOff()">
+
+        <a href="index.html"><li>Home</li></a>
+        <a href="templates.html"><li>Templates</li></a>
+        <a href="about.html"><li>About</li></a>
+        
+        <a href="contact.html"><button>Contact Us</button></a>
+    </div>
+
+    <div class="cont-4">
+        <h1 data-aos="fade-up" data-aos-delay="800">Choose Your Perfect Design</h1>
+
+        <div style="display: flex; justify-content: right;">
+            <li>Search By Tags:</li>
+
+            <button onclick="allCate()" id="all-btn">All</button>
+            <button onclick="portfolioCate()" id="portfolio-btn">Portfolio</button>
+            <button onclick="ecommerceCate()" id="ecommerce-btn">E-commerce</button>
+            <button onclick="socialCate()" id="social-btn">Social</button>
+            
+        </div>
+          
+    </div>
+
+    <div class="template-card" id="ecommerce" data-aos="fade-up" data-aos-delay="300">
+        <h2>DigiFarmer</h2>
+        <a href="/source/digifarmer-1.png" target="_blank"><img src="/source/digifarmer-1.png"></a>
+        <a href="/source/digifarmer-2.png" target="_blank"><img src="/source/digifarmer-2.png"></a>
+        <a href="/source/digifarmer-3.png" target="_blank"><img src="/source/digifarmer-3.png"></a>
+        <p style="padding-bottom: 0;">Buy for: $8</p>
+        <p>E-commerce Website Template for Farmers (4 Pages)</p>
+        <a href="https://wa.me/9671773717?text=Hi%2C%20I%20want%20to%20buy%20DigiFarmer"><button>Buy via WhatsApp</button></a>
+    </div>
+
+    <div class="template-card" id="social" data-aos="fade-up" data-aos-delay="300">
+        <h2>Quipid</h2>
+        <a href="/source/qiupid-1.png" target="_blank"><img src="/source/qiupid-1.png"></a>
+        <a href="/source/qiupid-2.png" target="_blank"><img src="/source/qiupid-2.png"></a>
+        <a href="/source/qiupid-3.png" target="_blank"><img src="/source/qiupid-3.png"></a>
+        <a href="/source/qiupid-4.png" target="_blank"><img src="/source/qiupid-4.png"></a>
+        <p style="padding-bottom: 0;">Buy for: $6</p>
+        <p>Stylish one-page UI for dating websites.</p>
+        <a href="https://wa.me/9671773717?text=Hi%2C%20I%20want%20to%20buy%20Quipid"><button>Buy via WhatsApp</button></a>
+    </div>
+
+    <div class="footer">
+        <img src="/images/ico-3.avif">
+        <img src="/images/ico-4.avif">
+
+        <h2>Contact</h2>
+        <h3>Via Whatsapp:</h3>
+        <h4>9671773717</h4>
+        <p>&copy 2025 by Panda.</p>
+    </div>
+</body>
+</html>
