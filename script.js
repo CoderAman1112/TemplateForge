@@ -89,6 +89,9 @@ function ecommerceCate(){
     });
 }
 
+// The getElememtbyID() only returns the first ID. IF threre re multiple elements of same id, then its invalid HTML. I can fix it by using different div for a sepcific category.
+        //Like div#portfolio will have all portfolio category divs.
+
 function socialCate(){
     const btn = document.getElementById("social-btn");
 
