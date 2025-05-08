@@ -403,6 +403,93 @@ a{
 }
 
 
+.form-1{
+    height: auto;
+    width: 450px;
+    background-color: transparent;
+    border: .4px solid rgb(192, 192, 192);
+    border-radius: 30px;
+    display: grid;
+    justify-self: center;
+    margin: 100px 0;
+}
+.form-1 h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    color: rgb(56, 56, 56);
+    font-weight: 600;
+    display: flex;
+    justify-self: center;
+    margin: 20px 0;
+}
+.form-1 p{
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    color: rgb(56, 56, 56);
+    font-weight: 400;
+    display: flex;
+    justify-self: center;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+.form-1 input{
+    height: 40px;
+    width: 300px;
+    background-color: transparent;
+    border: .4px solid rgb(192, 192, 192);
+    outline: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-self: center;
+    margin-top: 20px;
+}
+.form-1 textarea{
+    height: 90px;
+    width: 280px;
+    background-color: transparent;
+    border: .4px solid rgb(192, 192, 192);
+    outline: none;
+    border-radius: 10px;
+    color: rgb(51, 51, 51);
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-self: center;
+    margin-top: 20px;
+    padding: 20px 20px;
+}
+.form-1 li{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: rgb(223, 117, 47);
+    font-weight: 400;
+    display: flex;
+    justify-self: center;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+.form-1 button{
+    height: 40px;
+    width: 330px;
+    background-color: rgb(223, 117, 47);
+    border: 0;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-self: center;
+    margin: 20px 0;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 140px;
+}
+
 
 
 
@@ -546,5 +633,27 @@ a{
         display: flex;
         justify-self: center;
     }
-    
+
+    .form-1{
+        width: 300px;
+    }
+    .form-1 h1{
+        font-size: 26px;
+    }
+    .form-1 p{
+        font-size: 12px;
+    }
+    .form-1 input{
+        width: 250px;
+    }
+    .form-1 textarea{
+        width: 230px;
+    }
+    .form-1 li{
+        font-size: 12px;
+    }
+    .form-1 button{
+        width: 280px;
+    }
+
 }
